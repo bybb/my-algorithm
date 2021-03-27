@@ -23,7 +23,7 @@ int main(){
     }
     catch(const std::out_of_range& ex)
     {
-        std::cerr << ex.what() << std::endl;
+        std::cerr << ex.what() << std::endl; 
     }
 
     std::array<int, 5> arr4 = {1, 2, 3, 4, 5};
